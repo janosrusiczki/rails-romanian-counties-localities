@@ -1,8 +1,10 @@
-Rails Active Record migrations for Romanian counties and localities
+Rails Active Record migrations for Romanian counties and localities.
 
 Run the `convert.rb` script if you want to regenerate the files.
 
-The files from the `result` directory can be used with the migrations provided after moving them to {RAILS_ROOT}/db/data/ - please note that the migrations should be run in the suggested order. There are also sample models provided.
+The two files from the `result` directory can be used with the `migrations` after moving them to {RAILS_ROOT}/db/data/ - please note that the migrations should be created / run in the suggested order. There are also sample `models` provided.
+
+I have willingly ignored the regions field from the localities table as I think it is irrelevant.
 
 The source SQL file comes from:
 
